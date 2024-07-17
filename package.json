@@ -1,5 +1,6 @@
 {
-  "name": "https://so-nita.github.io/portfolio/", 
+  "homepage": "https://so-nita.github.io/portfolio/",
+  "name": "my-portfolio", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
