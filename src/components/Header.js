@@ -7,9 +7,9 @@ const Header = () => {
       <>
         <input type="checkbox" id="menyAvPaa" className="burger-checkbox" />
         <label id="burger" htmlFor="menyAvPaa" className="pointer">
-          <div className="bg-black"></div>
-          <div className="bg-black"></div>
-          <div className="bg-black"></div>
+          <div className="bg-white"></div>
+          <div className="bg-white"></div>
+          <div className="bg-white"></div>
         </label>
         <nav id="meny" className="bg-white">
         </nav>
