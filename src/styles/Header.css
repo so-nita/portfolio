@@ -1,6 +1,30 @@
   .header {
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
     height: 4rem;
+    background-color: #0a192f;
+  }
+  .header .logo{
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3;
+  }
+  .header ul{
+    align-items: center;
+    height: 100%;
+  }
+  .header ul li{
+    list-style: none;
+    height: 100%;
+    color: var(--light-blue-color);
+    font-family: "Fira Mono", monospace;
+    font-size: .75rem;
+  }
+  .header ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+  }
+  .header ul li:hover a{
+    color: var(--light-blue-color);
   }
   #meny {
     background: #333;

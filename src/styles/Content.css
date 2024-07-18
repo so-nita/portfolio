@@ -1,0 +1,15 @@
+/* Content.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    padding-left: 1rem; /* Optional: add padding to the left */
+}
+
