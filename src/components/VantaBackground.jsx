@@ -1,6 +1,8 @@
+import { color } from 'framer-motion';
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import HALO from 'vanta/dist/vanta.halo.min';
+import { color2Rgb } from 'vanta/src/helpers';
 
 const VantaBackground = ({ children }) => {
     const vantaRef = useRef(null);
@@ -14,10 +16,11 @@ const VantaBackground = ({ children }) => {
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
-            amplitudeFactor: 2.20,
+            baseColor: color2Rgb(11, 25, 47),
+            backgroundColor: color2Rgb(11, 25, 47),
+            amplitudeFactor: 1.50,
             xOffset: 0.20,
             yOffset: -0.15,
-            size: 0.70
         });
     
         return () => {
@@ -25,8 +28,8 @@ const VantaBackground = ({ children }) => {
         };
     }, []);
 
-    return <div ref={vantaRef} style={{ height: '100vh' }}>{children}</div>;
-  };
+        return <div ref={vantaRef} style={{ height: '100vh', backgroundColor: 'rgb(11, 25, 47)' }}>{children}</div>;
+    };
 
 
 export default VantaBackground;

@@ -1,12 +1,17 @@
   .header {
     /* border-bottom: 1px solid #eee; */
     height: 4rem;
-    background-color: #0a192f;
+    /* background-color: #0f213e; */
+    background-color: #0B192FB3;
+    font-family: var(--loto);
   }
   .header .logo{
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     letter-spacing: 3;
+  }
+  .header .logo .App-logo{
+    height: 10vmin;
   }
   .header ul{
     align-items: center;

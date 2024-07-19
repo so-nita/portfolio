@@ -7,9 +7,13 @@ html, body {
 }
 
 .container-fluid {
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     display: flex;
-    align-items: center; /* Vertically centers the content */
-    padding-left: 1rem; /* Optional: add padding to the left */
+    align-items: center;  
+    padding-left: 1rem;  
+    /* background-color: #0b192f; */
+}
+.container-fluid .container-1 p{
+    font-size: 18px;
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import Logo from '../logo.svg';
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
       <>
         <div className='row w-100 align-items-center'>
           <div className='col-4 text-white text-start px-5 logo'>
-            LOGO
+            <img src={Logo} className="App-logo" alt="logo" />
           </div>
           <div className='col-8 d-flex justify-content-end d-none d-lg-block d-md-block align-items-center'>
             <ul className='d-flex justify-content-end '>
