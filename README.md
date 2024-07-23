@@ -8,12 +8,12 @@ In the project directory, you can run:
 
 ### Run project
 Navigate to the project directory
-    ```bash
+```bash
      cd portfolio
-    ```
-    ```bash
+```
+```bash
      npm start
-    ```
+```
 
 Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
