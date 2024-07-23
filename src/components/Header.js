@@ -14,10 +14,10 @@ const Header = () => {
           </div>
           <div className='col-8 d-flex justify-content-end d-none d-lg-block d-md-block align-items-center'>
             <ul className='d-flex justify-content-end '>
-              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 1.<a > About </a> </li>
-              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 2.<a > Experience</a> </li>
-              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 3.<a > Work</a> </li>
-              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 4.<a > Contact</a> </li>
+              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 1.<a href='/about'> About </a> </li>
+              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 2.<a href='/about'> Experience</a> </li>
+              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 3.<a href='/about'> Work</a> </li>
+              <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 4.<a href='/about'> Contact</a> </li>
             </ul>
           </div>
           <div className='col-4 d-lg-none d-md-none d-sm-block ' > 
@@ -29,10 +29,10 @@ const Header = () => {
               </label>
               <nav id="meny" className="bg-white ">
                 <ul className='d-flex text-black justify-content-center align-items-center'>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 1.<a href='#' > About </a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 2.<a href='#' > Experience</a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 3.<a href='#' > Work</a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 4.<a href='#' > Contact</a> </li>
+                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 1.<a href='/about' > About </a> </li>
+                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 2.<a href='/about' > Experience</a> </li>
+                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 3.<a href='/about' > Work</a> </li>
+                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 4.<a href='/about' > Contact</a> </li>
                 </ul>
               </nav>
           </div>
