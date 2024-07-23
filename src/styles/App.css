@@ -1,6 +1,14 @@
 /* "Fira Mono", monospace */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+ /* Jetbrain Mono */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
 :root {
   --white-color: #fff;
   --primary-color: #64ffda;
@@ -13,9 +21,12 @@
   --lightest-slate-color: #ccd6f6;
   --blue-color : #474bff;
   --light-blue-color: #33F9FF;
+  --pen-color: #6193ff;
 
   --fira-font: 'Fira Mono', monospace;
   --lato-font: 'Lato', sans-serif;
+  --Goggul-font: "Open Sans", sans-serif;
+  --Jetbrain-font: "JetBrains Mono", monospace;
 }
 .App {
   text-align: center;
