@@ -20,21 +20,21 @@ const Header = () => {
               <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon={faAngleRight} /> 4.<a href='/about'> Contact</a> </li>
             </ul>
           </div>
-          <div className='col-4 d-lg-none d-md-none d-sm-block ' > 
+          <div className='col-4 d-lg-none d-md-none d-sm-block' > 
             <input type="checkbox" id="menyAvPaa" className="burger-checkbox" />
-              <label id="burger" htmlFor="menyAvPaa" className="pointer py-1 py-lg-0 py-md-0">
+              <label id="burger" htmlFor="menyAvPaa" className="pointer ">
                 <div className="bg-white"></div>
                 <div className="bg-white"></div>
                 <div className="bg-white"></div>
               </label>
-              <nav id="meny" className="bg-white d-flex justify-content-center align-items-center">
-                <ul className=' text-black '>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 1.<a href='/about' > About </a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 2.<a href='/about' > Experience</a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 3.<a href='/about' > Work</a> </li>
-                  <li className='px-3 pt-3'> <FontAwesomeIcon size='13' icon= {faAngleRight} /> 4.<a href='/about' > Contact</a> </li>
-                </ul>
-              </nav>
+              <nav id="meny" className=" w-100 d-flex justify-content-center align-items-center">
+                <div className='text-white py-5 w-100 row h-75 px-3'>
+                  <div className="menu-item" > <FontAwesomeIcon size='13' icon= {faAngleRight} /> 1.<a href='/about' > About </a></div>
+                  <div className="menu-item" > <FontAwesomeIcon size='13' icon= {faAngleRight} /> 2.<a href='/about' > Experience</a></div>
+                  <div className="menu-item" > <FontAwesomeIcon size='13' icon= {faAngleRight} /> 3.<a href='/about' > Work </a></div>
+                  <div className="menu-item" > <FontAwesomeIcon size='13' icon= {faAngleRight} /> 4.<a href='/about' > Contact</a></div>
+                </div>
+              </nav> 
           </div>
         </div>
       </>

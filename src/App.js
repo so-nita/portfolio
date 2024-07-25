@@ -7,18 +7,7 @@ import Header from './components/Header';
 import Content from './components/Content.js';
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 5000);
-
-  //   return () => {
-  //     clearTimeout();
-  //   };
-  // }, []);
-
+  
   return (
     // <main>
     //   <Header />
@@ -26,6 +15,7 @@ function App() {
     // </main>
     
     <VantaBackground>
+      {/* <Page /> */}
       <Header />
       <Content />
     </VantaBackground>

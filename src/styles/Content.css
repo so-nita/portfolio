@@ -19,16 +19,34 @@ html, body {
     z-index: 2 !important; 
     /* background-color: gray; */
 }
-.container-fluid .container-1 .content-description{
+.container-1 .profile-title{
+    color: #fff;
+    font-size: 14px;
+}
+.container-1 .profile-name{
+    font-family: var(--lato-font);
+    font-size: 18px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: 1.6px;
+}
+.container-fluid .container-1 .profile-description{
     font-size: 16px;
-    /* color: #134977; */
-    /* color: #7fdbca; */
-    /* color: #64ffda; */
-    color: #0498EC;
-    font-family: var(--Jetbrain-font);
+    /* color: #50b0f0; */
+    color: var(--light-blue-color);
     font-weight: 300;
     line-height: 1.5;
     margin-top: 1rem;
+    font-family: var(--lato-font);
+}
+.container-1 .profile-image span{
+    margin-top: 1rem;
+}
+
+
+.container-2{
+    background-color: #051022;
 }
 
 @media screen and (max-width: 767px){

@@ -1,0 +1,7 @@
+footer{
+    height: 200px;
+}
+footer span{
+    font-family: var(--Jetbrain-font);
+    color: #fff;
+}
